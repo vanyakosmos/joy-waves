@@ -43,3 +43,14 @@ optional arguments:
   --nl NOISE_LEVEL    Noise level. Default: 0.05
   --ns NOISE_SMOOTH   Noise smoothing factor. Default: 4
 ```
+
+## Installation
+
+Create a virtual python environment
+
+```sh
+$ python -m venv virtualenv
+$ source virtualenv/bin/activate
+$ pip install -r requirements.txt
+$ python main.py
+```
